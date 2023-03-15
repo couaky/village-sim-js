@@ -1,0 +1,28 @@
+{
+  "name": "village-sim",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Quentin Virol",
+    "email": "quentinvirol@gmail.com"
+  },
+  "scripts": {
+    "dev": "vite --open",
+    "build": "tsc && vite build",
+    "preview": "tsc && vite build && vite preview --host --open"
+  },
+  "typeRoots": [
+    "node_modules/@types",
+    "src/@types"
+  ],
+  "devDependencies": {
+    "typescript": "^4.6.2",
+    "vite": "^2.8.6"
+  },
+  "dependencies": {
+    "babylonjs": "^5.49.2",
+    "babylonjs-loaders": "^5.49.2",
+    "reflect-metadata": "^0.1.13",
+    "typedi": "^0.10.0"
+  }
+}
